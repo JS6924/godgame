@@ -8,7 +8,8 @@ gem 'rails', '4.2.5'
   gem 'sqlite3'
 end
 
-group :production do 'pg'
+group :production do 
+  gem 'pg'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
