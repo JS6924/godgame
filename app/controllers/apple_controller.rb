@@ -1,4 +1,9 @@
 class AppleController < ApplicationController
+    
+def home
+    
+end
+
 def index
 
     @comments1= [ "식탐 5스푼", "수면욕 16스푼", "소심함 8스푼" ]
